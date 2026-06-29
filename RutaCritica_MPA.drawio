@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" modified="2026-06-29" agent="Claude AI" version="24.0.0" type="device">
+  <diagram id="ruta-critica-mpa" name="Ruta Crítica — MPA Auditoría TI">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ══ MARCA DE AGUA (REEMPLAZA TUS DATOS) ══ -->
+        <mxCell id="watermark" value="[APELLIDOS Y NOMBRES]&#xa;CÉDULA: [TU CÉDULA]&#xa;FECHA: [DD/MM/AAAA]&#xa;MPA — AUDITORÍA DE TI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=30;fontStyle=1;fontColor=#CCCCCC;opacity=15;rotation=-30;" parent="1" vertex="1">
+          <mxGeometry x="480" y="420" width="700" height="260" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ TÍTULO ══ -->
+        <mxCell id="titulo" value="RUTA CRÍTICA (PERT/CPM) — MEMORANDO DE PLANEACIÓN DE AUDITORÍA (MPA)&#xa;Auditoría al Core de Bases de Datos Académicas y al Sistema de Control de Accesos Lógicos · Unidad 4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fillColor=#1E3A5F;fontColor=#FFFFFF;strokeColor=#1E3A5F;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1520" height="56" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ NODO INICIO ══ -->
+        <mxCell id="inicio" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#0F2040;fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="60" y="180" width="90" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ FASE A — PLANIFICACIÓN ══ -->
+        <mxCell id="fA" value="A · PLANIFICACIÓN&#xa;&#xa;Alcance, matriz de riesgos y RFI&#xa;Duración: 5 días&#xa;Dependencia: — (inicio)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#1D4ED8;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="210" y="170" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="hA" value="HITO 1: MPA aprobado&#xa;Listas Trello 1, 2 y 3" style="text;html=1;align=center;fontSize=9;fontStyle=2;fontColor=#1D4ED8;" parent="1" vertex="1">
+          <mxGeometry x="210" y="285" width="220" height="34" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ FASE B — TRABAJO DE CAMPO ══ -->
+        <mxCell id="fB" value="B · TRABAJO DE CAMPO&#xa;&#xa;Ejecución técnica de pruebas lógicas&#xa;Duración: 12 días&#xa;Dependencia: A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#7C3AED;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="490" y="170" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="hB" value="Lista Trello 4: Fase de campo&#xa;(En proceso)" style="text;html=1;align=center;fontSize=9;fontStyle=2;fontColor=#7C3AED;" parent="1" vertex="1">
+          <mxGeometry x="490" y="285" width="220" height="34" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ FASE C — EVIDENCIAS ══ -->
+        <mxCell id="fC" value="C · EVIDENCIAS Y CADENA DE CUSTODIA&#xa;&#xa;Consolidación y hashes SHA-256&#xa;Duración: 3 días&#xa;Dependencia: B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFBF1;strokeColor=#0D9488;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="770" y="170" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="hC" value="HITO 2: Lista Trello 5&#xa;Evidencias y hashes" style="text;html=1;align=center;fontSize=9;fontStyle=2;fontColor=#0D9488;" parent="1" vertex="1">
+          <mxGeometry x="770" y="285" width="220" height="34" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ FASE D — PRE-INFORME ══ -->
+        <mxCell id="fD" value="D · PRE-INFORME&#xa;&#xa;Hallazgos y borrador del informe&#xa;Duración: 4 días&#xa;Dependencia: C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9C3;strokeColor=#CA8A04;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="170" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="hD" value="Mesa de validación técnica" style="text;html=1;align=center;fontSize=9;fontStyle=2;fontColor=#CA8A04;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="285" width="220" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ FASE E — LECTURA FINAL ══ -->
+        <mxCell id="fE" value="E · LECTURA FINAL&#xa;&#xa;Cierre con la entidad auditada&#xa;Duración: 2 días&#xa;Dependencia: D" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontSize=11;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="170" width="200" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="hE" value="HITO 3: Lectura final" style="text;html=1;align=center;fontSize=9;fontStyle=2;fontColor=#16A34A;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="285" width="200" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ NODO FIN ══ -->
+        <mxCell id="fin" value="FIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#0F2040;fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="370" width="90" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ CONEXIONES (RUTA CRÍTICA — Fin→Inicio) ══ -->
+        <mxCell id="e_ini_A" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B91C1C;strokeWidth=3;fontSize=10;fontColor=#B91C1C;" parent="1" source="inicio" target="fA" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_A_B" value="FS" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B91C1C;strokeWidth=3;fontSize=10;fontColor=#B91C1C;" parent="1" source="fA" target="fB" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_B_C" value="FS" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B91C1C;strokeWidth=3;fontSize=10;fontColor=#B91C1C;" parent="1" source="fB" target="fC" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_C_D" value="FS" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B91C1C;strokeWidth=3;fontSize=10;fontColor=#B91C1C;" parent="1" source="fC" target="fD" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_D_E" value="FS" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B91C1C;strokeWidth=3;fontSize=10;fontColor=#B91C1C;" parent="1" source="fD" target="fE" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_E_fin" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B91C1C;strokeWidth=3;" parent="1" source="fE" target="fin" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- ══ RESUMEN RUTA CRÍTICA ══ -->
+        <mxCell id="resumen" value="RUTA CRÍTICA: A (5) → B (12) → C (3) → D (4) → E (2) = 26 DÍAS · Sin holgura — toda la cadena es crítica" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#B91C1C;fontSize=12;fontStyle=1;align=center;fontColor=#7F1D1D;" parent="1" vertex="1">
+          <mxGeometry x="210" y="520" width="1060" height="44" as="geometry"/>
+        </mxCell>
+
+        <!-- ══ LEYENDA ══ -->
+        <mxCell id="ley" value="LEYENDA&#xa;FS = dependencia Fin–Inicio (la fase no arranca hasta cerrar la anterior)&#xa;Línea roja gruesa = ruta crítica&#xa;Cada fase corresponde a un hito y a una lista del tablero de Trello" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#64748B;fontSize=10;align=left;spacingLeft=8;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="210" y="600" width="560" height="110" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
