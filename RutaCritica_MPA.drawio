@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Claude AI">
   <diagram id="ruta-critica-mpa" name="Ruta Crítica — MPA Auditoría TI">
-    <mxGraphModel dx="1691" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1604" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="watermark" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=30;fontStyle=1;fontColor=#CCCCCC;opacity=15;rotation=-30;" value="Hermosa Ponce Adrian Renato&lt;br&gt;CÉDULA: 1727461871&lt;br&gt;FECHA: 29/6/2026&lt;br&gt;MPA — AUDITORÍA DE TI" vertex="1">
-          <mxGeometry height="260" width="700" x="430" y="330" as="geometry" />
+          <mxGeometry height="260" width="700" x="510" y="304" as="geometry" />
         </mxCell>
         <mxCell id="titulo" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fillColor=#1E3A5F;fontColor=#FFFFFF;strokeColor=#1E3A5F;" value="RUTA CRÍTICA (PERT/CPM) — MEMORANDO DE PLANEACIÓN DE AUDITORÍA (MPA)&#xa;Auditoría al Core de Bases de Datos Académicas y al Sistema de Control de Accesos Lógicos · Unidad 4" vertex="1">
           <mxGeometry height="56" width="1520" x="40" y="20" as="geometry" />
         </mxCell>
         <mxCell id="inicio" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#0F2040;fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;" value="INICIO" vertex="1">
-          <mxGeometry height="90" width="90" x="60" y="180" as="geometry" />
+          <mxGeometry height="90" width="90" x="90" y="180" as="geometry" />
         </mxCell>
         <mxCell id="fA" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#1D4ED8;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;" value="A · PLANIFICACIÓN&#xa;&#xa;Alcance, matriz de riesgos y RFI&#xa;Duración: 5 días&#xa;Dependencia: — (inicio)" vertex="1">
           <mxGeometry height="110" width="220" x="210" y="170" as="geometry" />
@@ -65,10 +65,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="resumen" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#B91C1C;fontSize=12;fontStyle=1;align=center;fontColor=#7F1D1D;" value="RUTA CRÍTICA: A (5) → B (12) → C (3) → D (4) → E (2) = 26 DÍAS · Sin holgura — toda la cadena es crítica" vertex="1">
-          <mxGeometry height="44" width="1060" x="210" y="520" as="geometry" />
+          <mxGeometry height="44" width="1060" x="220" y="340" as="geometry" />
         </mxCell>
         <mxCell id="ley" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#64748B;fontSize=10;align=left;spacingLeft=8;verticalAlign=middle;" value="LEYENDA&#xa;FS = dependencia Fin–Inicio (la fase no arranca hasta cerrar la anterior)&#xa;Línea roja gruesa = ruta crítica&#xa;Cada fase corresponde a un hito y a una lista del tablero de Trello" vertex="1">
-          <mxGeometry height="110" width="560" x="210" y="600" as="geometry" />
+          <mxGeometry height="110" width="560" x="210" y="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
